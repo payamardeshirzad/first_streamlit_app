@@ -31,3 +31,5 @@ streamlit.text(fruityvice_response.json())
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # Display dataframe as an interactive table
 streamlit.dataframe(fruityvice_normalized)
+streamlit.text(fruityvice_response.json())
+
